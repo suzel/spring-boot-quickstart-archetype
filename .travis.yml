@@ -4,3 +4,5 @@ jdk:
 script:
   - "mvn clean install"
   - "mkdir spring-boot-app && cd spring-boot-app/"
+  - "mvn archetype:generate -DarchetypeGroupId=com.github.spring-boot-archetypes -DarchetypeArtifactId=spring-boot-quickstart -DarchetypeVersion=1.0.0 -DgroupId=my.groupid -DartifactId=spring-boot-app -Dversion=1.0.0"
+  - "cd spring-boot-app && mvn clean test"
