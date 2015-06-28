@@ -1,3 +1,9 @@
 language: java
 jdk:
   - oraclejdk8
+script:
+  - "mvn clean install"
+  - "mkdir spring-boot-app && cd spring-boot-app/"
+  - "mvn archetype:generate -DarchetypeGroupId=com.github.spring-boot-archetypes -DarchetypeArtifactId=spring-boot-quickstart -DarchetypeVersion=1.0.0 -DgroupId=com.company -DartifactId=spring-boot-app -Dversion=1.0.0 -DinteractiveMode=false"
+  - "cd spring-boot-app && mvn clean test"
+  - "cd ../.. && rm -rf spring-boot-app"
