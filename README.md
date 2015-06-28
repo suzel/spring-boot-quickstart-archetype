@@ -7,8 +7,6 @@ Summary
 -------
 The project is a Maven archetype for Spring Boot application.
 
-[![Build Status](https://travis-ci.org/suzel/spring-boot-quickstart-archetype.svg?branch=master)](https://travis-ci.org/suzel/spring-boot-quickstart-archetype)
-
 Installation
 ------------
 
