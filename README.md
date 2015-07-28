@@ -26,9 +26,10 @@ Create a project
         -DarchetypeGroupId=com.github.spring-boot-archetypes \
         -DarchetypeArtifactId=spring-boot-quickstart \
         -DarchetypeVersion=1.0.0 \
-        -DgroupId=my.groupid \
-        -DartifactId=my-artifactId \
-        -Dversion=version
+        -DgroupId=com.company \
+        -DartifactId=webapp \
+        -Dversion=1.0.0 \
+        -DinteractiveMode=false
 ```
 
 Run the project
