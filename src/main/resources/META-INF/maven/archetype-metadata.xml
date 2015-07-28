@@ -15,6 +15,14 @@
         <fileSet filtered="false" encoding="UTF-8">
             <directory>src/main/webapp</directory>
         </fileSet>
+        <fileSet filtered="true">
+            <directory>src/main/docker</directory>
+            <includes>
+                <include>**/Dockerfile</include>
+                <include>**/*.yml</include>
+                <include>**/*.sh</include>
+            </includes>
+        </fileSet>
         <fileSet filtered="true" packaged="true">
             <directory>src/test/java</directory>
             <includes>
