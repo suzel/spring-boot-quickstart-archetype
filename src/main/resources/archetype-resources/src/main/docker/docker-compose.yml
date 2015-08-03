@@ -1,9 +1,9 @@
-${artifactId.toLowerCase()}:
-  image: suzel/${artifactId.toLowerCase()}
-  ports:
-    - "8080:8080"
-  links:
-    - mysql:mysql
+#${artifactId.toLowerCase().replace("-", "")}:
+#  image: suzel/${artifactId.toLowerCase().replace("-", "")}
+#  ports:
+#    - "8080:8080"
+#  links:
+#    - mysql:mysql
 #    - postgres:postgres
 #    - mongodb:mongodb
 #    - redis:redis

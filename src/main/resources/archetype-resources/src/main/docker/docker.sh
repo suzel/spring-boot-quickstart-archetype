@@ -6,4 +6,4 @@ $(boot2docker shellinit)
 docker stop $(docker ps -a -q)
 
 docker-compose stop
-docker-compose -p ${artifactId.toLowerCase()} up -d
+docker-compose -p ${artifactId.toLowerCase().replace("-", "")} up -d

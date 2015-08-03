@@ -36,6 +36,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <docker.image.prefix>${user.name}</docker.image.prefix>
         <docker.plugin.version>0.2.12</docker.plugin.version>
+        <postgresql.version>9.4-1201-jdbc41</postgresql.version>
 
     </properties>
 
@@ -51,6 +52,10 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.hateoas</groupId>
+            <artifactId>spring-hateoas</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
@@ -63,6 +68,15 @@
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${postgresql.version}</version>
+        </dependency>
+        <!--<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-logging</artifactId>
@@ -133,7 +147,6 @@
             </plugin>
 
             <!-- Plugin : Docker -->
-            <!-- $ mvn package docker:build -->
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
@@ -149,16 +162,14 @@
                         </resource>
                     </resources>
                 </configuration>
-                <!--
-                <executions>
+                <!--<executions>
                     <execution>
                         <phase>package</phase>
                         <goals>
                             <goal>build</goal>
                         </goals>
                     </execution>
-                </executions>
-                -->
+                </executions>-->
             </plugin>
 
         </plugins>
