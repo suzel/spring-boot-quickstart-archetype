@@ -5,7 +5,7 @@ Spring Boot Quickstart Maven Archetype
 
 Summary
 -------
-The project is a Maven archetype for Spring Boot application.
+The project is a Maven archetype for Spring Boot web application.
 
 Installation
 ------------
@@ -28,7 +28,7 @@ Create a project
         -DarchetypeVersion=1.0.0 \
         -DgroupId=com.company \
         -DartifactId=webapp \
-        -Dversion=1.0.0 \
+        -Dversion=1.0.0-SNAPSHOT \
         -DinteractiveMode=false
 ```
 
