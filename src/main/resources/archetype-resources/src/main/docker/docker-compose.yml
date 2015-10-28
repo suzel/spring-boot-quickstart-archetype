@@ -11,15 +11,15 @@
 #  volumes:
 #    - www:/var/www
 
-mysql:
-  image: mysql
-  ports:
-    - "3306:3306"
-  environment:
-    MYSQL_DATABASE: ${artifactId.toLowerCase()}_db
-    MYSQL_USER: ${artifactId.toLowerCase()}_user
-    MYSQL_PASSWORD: password
-    MYSQL_ROOT_PASSWORD: password
+#mysql:
+#  image: mysql
+#  ports:
+#    - "3306:3306"
+#  environment:
+#    MYSQL_DATABASE: ${artifactId.toLowerCase()}_db
+#    MYSQL_USER: ${artifactId.toLowerCase()}_user
+#    MYSQL_PASSWORD: password
+#    MYSQL_ROOT_PASSWORD: password
 
 #postgres:
 #  image: postgres
