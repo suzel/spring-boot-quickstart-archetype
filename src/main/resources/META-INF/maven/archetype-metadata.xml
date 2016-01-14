@@ -24,7 +24,7 @@
         <fileSet filtered="false" encoding="UTF-8">
             <directory>src/main/webapp</directory>
         </fileSet>
-        <fileSet filtered="true" packaged="true">
+        <fileSet filtered="true">
             <directory>src/test/java</directory>
             <includes>
                 <include>**/*.java</include>
