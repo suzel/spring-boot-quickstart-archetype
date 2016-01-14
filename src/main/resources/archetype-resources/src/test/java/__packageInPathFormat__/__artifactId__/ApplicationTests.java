@@ -1,4 +1,4 @@
-package ${package};
+package ${package}.${artifactId};
 
 import org.junit.Before;
 import org.junit.Test;
