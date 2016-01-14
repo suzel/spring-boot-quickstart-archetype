@@ -13,7 +13,7 @@
             </includes>
         </fileSet>
         <fileSet filtered="true" packaged="true">
-            <directory>src/main/java</directory>
+            <directory>src/main/java/__artifactId__</directory>
             <includes>
                 <include>**/*.java</include>
             </includes>
