@@ -33,9 +33,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <docker.image.prefix>${user.name}</docker.image.prefix>
-        <docker.plugin.version>0.3.5</docker.plugin.version>
         <postgresql.version>9.4-1206-jdbc42</postgresql.version>
+        <thymeleaf-extras-springsecurity3.version>2.1.2.RELEASE</thymeleaf-extras-springsecurity3.version>
 
     </properties>
 
@@ -49,6 +48,20 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.thymeleaf.extras</groupId>
+            <artifactId>thymeleaf-extras-springsecurity3</artifactId>
+            <version>${thymeleaf-extras-springsecurity3.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
