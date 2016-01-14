@@ -1,7 +1,7 @@
 #set( $str = "" )
 #set( $dt = $str.getClass().forName("java.util.Date").newInstance() )
 #set( $year = $dt.getYear() + 1900 )
-Copyright (c) {% now "Y" %}, ${artifactId}
+Copyright (c) ${year}, ${artifactId}
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
