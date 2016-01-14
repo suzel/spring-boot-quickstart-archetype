@@ -1,4 +1,4 @@
 /**
  * Spring Framework Configuration Files
  */
-package ${package}.config;
+package ${package}.${artifactId}.config;

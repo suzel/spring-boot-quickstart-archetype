@@ -1,4 +1,4 @@
 /**
  * Spring Data JPA Repositories
  */
-package ${package}.repository;
+package ${package}.${artifactId}.repository;

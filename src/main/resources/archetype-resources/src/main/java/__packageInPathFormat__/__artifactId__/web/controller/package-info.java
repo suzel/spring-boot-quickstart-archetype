@@ -1,4 +1,4 @@
 /**
  * Spring MVC Controllers
  */
-package ${package}.web.controller;
+package ${package}.${artifactId}.web.controller;

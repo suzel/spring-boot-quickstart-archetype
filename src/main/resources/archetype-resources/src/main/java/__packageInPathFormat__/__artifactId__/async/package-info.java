@@ -1,4 +1,4 @@
 /**
  * Async Helpers
  */
-package ${package}.async;
+package ${package}.${artifactId}.async;

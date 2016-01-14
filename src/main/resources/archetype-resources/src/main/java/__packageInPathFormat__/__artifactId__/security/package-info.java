@@ -1,4 +1,4 @@
 /**
  * Spring Security Configuration
  */
-package ${package}.security;
+package ${package}.${artifactId}.security;

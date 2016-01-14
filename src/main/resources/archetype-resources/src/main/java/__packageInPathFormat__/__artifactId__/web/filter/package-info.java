@@ -1,4 +1,4 @@
 /**
  * Servlet Filters
  */
-package ${package}.web.filter;
+package ${package}.${artifactId}.web.filter;

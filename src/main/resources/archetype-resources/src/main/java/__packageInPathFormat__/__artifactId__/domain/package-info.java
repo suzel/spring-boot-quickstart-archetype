@@ -1,4 +1,4 @@
 /**
  * JPA Domain Objects
  */
-package ${package}.domain;
+package ${package}.${artifactId}.domain;

@@ -1,4 +1,4 @@
 /**
  * Service Layer Beans
  */
-package ${package}.service;
+package ${package}.${artifactId}.service;
