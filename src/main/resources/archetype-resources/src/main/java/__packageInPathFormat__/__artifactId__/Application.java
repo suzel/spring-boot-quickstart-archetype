@@ -1,4 +1,4 @@
-package ${package};
+package ${package}.${artifactId};
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
