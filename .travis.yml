@@ -2,12 +2,20 @@ language: java
 
 jdk:
   - oraclejdk8
+  - oraclejdk7
+  - openjdk6
 
 addons:
-  postgresql: "9.4"
+  postgresql: 9.4
 
 services:
   - postgresql
+  - redis-server
+  - rabbitmq
+
+cache:
+  directories:
+    - $HOME/.m2
 
 script:
   - mvn clean install
@@ -15,6 +23,8 @@ script:
   - mvn archetype:generate -DarchetypeGroupId=com.github.spring-boot-archetypes -DarchetypeArtifactId=spring-boot-quickstart -DarchetypeVersion=1.0.0 -DgroupId=com.company -DartifactId=webapp -Dversion=1.0.0 -DinteractiveMode=false
   - cd webapp && mvn clean test
   - cd ../.. && rm -rf webapp
+
+sudo: false
 
 notifications:
   email:
