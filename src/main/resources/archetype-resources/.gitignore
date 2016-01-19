@@ -28,8 +28,8 @@ Desktop.ini
 *.orig
 
 # Node
-/node/**
-/node_modules/
+/**/node/
+/**/node_modules/
 
 # SASS
 /**/.sass-cache/
