@@ -36,6 +36,9 @@ target/
 # Java
 *.class
 
+# Bower
+/**/vendor/
+
 # Directories
 /build/
 /bin/
