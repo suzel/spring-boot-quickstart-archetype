@@ -1,28 +1,30 @@
-#set( $symbol_pound = '#' )
-#set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
 {
   "name": "${artifactId}",
   "version": "${version}",
   "dependencies": {
-    "jquery": "2.2.0",
-    "bootstrap": "3.3.6",
-    "font-awesome": "4.5.0",
-    "animate.css": "3.5.1",
-    "modernizr": "3.3.1",
-    "json3": "3.3.2",
-    "angular": "angularjs#~1.4.8",
-    "angular-ui-router": "0.2.15",
-    "angular-resource": "1.4.8",
-    "angular-cookies": "1.4.8",
-    "angular-sanitize": "1.4.8",
-    "angular-i18n": "1.4.8",
-    "angular-translate": "2.8.1",
-    "angular-translate-storage-cookie": "2.8.1",
-    "angular-translate-loader-partial": "2.8.1",
-    "angular-dynamic-locale": "0.1.29",
-    "angular-local-storage": "0.2.3",
+    "angular": "1.4.8",
+    "angular-aria": "1.4.8",
+    "angular-bootstrap": "1.1.0",
     "angular-cache-buster": "0.4.3",
-    "ngInfiniteScroll": "1.2.1"
+    "angular-cookies": "1.4.8",
+    "angular-dynamic-locale": "0.1.29",
+    "angular-i18n": "1.4.8",
+    "angular-local-storage": "0.2.3",
+    "angular-loading-bar": "0.8.0",
+    "angular-resource": "1.4.8",
+    "angular-sanitize": "1.4.8",
+    "angular-translate": "2.8.1",
+    "angular-translate-interpolation-messageformat": "2.8.1",
+    "angular-translate-loader-partial": "2.8.1",
+    "angular-translate-storage-cookie": "2.8.1",
+    "angular-ui-router": "0.2.15",
+    "bootstrap": "3.3.6",
+    "jquery": "2.2.0",
+    "json3": "3.3.2",
+    "modernizr": "3.3.1",
+    "ng-file-upload": "11.1.1",
+    "ngInfiniteScroll": "1.2.2",
+    "swagger-ui": "2.1.4",
+    "todc-bootstrap": "3.0.2"
   }
 }
