@@ -1,0 +1,13 @@
+* text eol=lf
+*.java text
+*.js text
+*.css text
+*.html text
+*.png binary
+*.jpg binary
+*.jar binary
+*.pdf binary
+*.eot binary
+*.ttf binary
+*.gzip binary
+*.gz binary
