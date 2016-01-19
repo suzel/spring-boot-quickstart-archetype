@@ -60,6 +60,8 @@
     "npm": ">=3.5.3"
   },
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "bower install",
+    "build": "grunt default",
+    "test": "grunt test"
   }
 }
