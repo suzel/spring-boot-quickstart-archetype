@@ -4,7 +4,7 @@
 {
   "name": "${artifactId}",
   "version": "${version}",
-  "description": "Description for ${artifactId}",
+  "description": "${artifactId} Project",
   "private": true,
   "dependencies": {
   },
