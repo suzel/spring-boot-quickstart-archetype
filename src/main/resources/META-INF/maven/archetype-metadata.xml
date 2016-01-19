@@ -7,6 +7,7 @@
             <directory></directory>
             <includes>
                 <include>.gitignore</include>
+                <include>.gitattributes</include>
                 <include>README.md</include>
                 <include>LICENSE</include>
                 <include>Procfile</include>
