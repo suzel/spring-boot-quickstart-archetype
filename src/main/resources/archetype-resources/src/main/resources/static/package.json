@@ -1,12 +1,14 @@
-#set( $symbol_pound = '#' )
-#set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
 {
   "name": "${artifactId}",
   "version": "${version}",
-  "description": "${artifactId} Project",
+  "description": "Description for ${artifactId}",
   "private": true,
+  "cacheDirectories": [
+    "node_modules",
+    "src/main/resources/static/vendor"
+  ],
   "dependencies": {
+    "bower": "1.7.2"
   },
   "devDependencies": {
     "grunt": "0.4.5",
