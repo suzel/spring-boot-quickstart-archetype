@@ -4,7 +4,7 @@
 .Spotlight-V100
 .Trashes
 
-# Win
+# Windows
 Thumbs.db
 Desktop.ini
 
@@ -23,6 +23,19 @@ Desktop.ini
 .idea/
 *.iml
 *.iws
+*.ipr
+*.ids
+*.orig
+
+# Node
+/node/**
+/node_modules/
+
+# SASS
+/**/.sass-cache/
+
+# Bower
+/**/vendor/
 
 # Maven
 log/
@@ -40,3 +53,7 @@ target/
 /build/
 /bin/
 /out/
+/deploy/
+
+# Logs
+*.log

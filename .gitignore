@@ -4,7 +4,7 @@
 .Spotlight-V100
 .Trashes
 
-# Win
+# Windows
 Thumbs.db
 Desktop.ini
 
@@ -36,10 +36,8 @@ target/
 # Java
 *.class
 
-# Bower
-/**/vendor/
-
 # Directories
 /build/
 /bin/
 /out/
+/deploy/
