@@ -13,8 +13,11 @@ trim_trailing_whitespace = true
 [*.java]
 indent_size = 4
 
-[*.{html,xml,css,scss,js,json,yml}]
+[*.{html,xml,js}]
 indent_size = 4
+
+[*.{css,scss,json,yml}]
+indent_size = 2
 
 [*.md]
 trim_trailing_whitespace = false
